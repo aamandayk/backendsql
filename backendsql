@@ -27,3 +27,6 @@ INSERT INTO aula (serie, turma, componente, professor) VALUES
 DELETE FROM aula WHERE id = 10
 
 UPDATE aula SET professor = "Patrick"
+where id = 2; 
+
+SELECT componente, professor FROM aula WHERE id = 10;
